@@ -2,36 +2,51 @@ body{
   background-color: white;
 }
 #entete{
-  color: #50468C;
   background-color: lightgrey;
-  font-family: Times;
-  font-size: 30;
   margin: auto;
-  padding-top: 40px;
-  padding-bottom: 60px;
-  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 120px;
 }
-  #age{
+  #image{
+    height:60px;
+    margin-left: 15px;
+    width:60px;
+  }
+  #nom{
     color: #50468C;
     font-family: Times;
-    font-size: 16;
-    font-style: italic;
+    font-size: 30;
+    margin-top: 130px;
     text-align: center;
   }
-  #adresse{
-    color: #50468C;
-    font-family: Times;
-    font-size: 16;
-    font-style: italic;
-    text-align: center;
-  }
-  #poste{
-    color: #50468C;
-    font-family: Times;
-    font-size: 20;
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
+    #age{
+      color: #50468C;
+      font-family: Times;
+      font-size: 16;
+      font-style: italic;
+      text-align: center;
+    }
+    #adresse{
+      color: #50468C;
+      font-family: Times;
+      font-size: 16;
+      font-style: italic;
+      text-align: center;
+    }
+    #poste{
+      color: #50468C;
+      font-family: Times;
+      font-size: 20;
+      font-weight: bold;
+      font-style: italic;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+  #image1{
+    height:60px;
+    margin-left: 1075px;
+    text-align: right;
+    width:60px;
   }
 #skills{
   color: #50468C;
@@ -174,6 +189,48 @@ body{
   padding-top: 40px;
   padding-bottom: 40px;
 }
+  #categorie{
+    color: #046380;
+    font-family: Times;
+    font-size: 24;
+    margin-left: 15px;
+  }
+    #tv{
+      color: #BF8273;
+      font-family: Times;
+      font-size: 24;
+      margin-left: 25px;
+    }
+      #detail5{
+        color: black;
+        font-family: Times;
+        font-size: 24;
+        margin-left: 35px;
+      }
+    #sport{
+      color: #BF8273;
+      font-family: Times;
+      font-size: 24;
+      margin-left: 25px;
+    }
+      #detail6{
+        color: black;
+        font-family: Times;
+        font-size: 24;
+        margin-left: 35px;
+      }
+  #news{
+    color: #046380;
+    font-family: Times;
+    font-size: 24;
+    margin-left: 15px;
+  }
+    #detail7{
+      color: black;
+      font-family: Times;
+      font-size: 24;
+      margin-left: 35px;
+    }
 #contact{
   color: #50468C;
   font-family: Times;
