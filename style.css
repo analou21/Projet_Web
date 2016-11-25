@@ -103,6 +103,11 @@ body{
       font-size: 24;
       margin-left: 25px;
     }
+    #lien{
+      font-family: Times;
+      font-size: 24;
+      margin-left: 35px;
+    }
   #stage{
     color: #046380;
     font-family: Times;
@@ -115,6 +120,11 @@ body{
       font-size: 24;
       margin-left: 25px;
     }
+    #lien1{
+      font-family: Times;
+      font-size: 24;
+      margin-left: 35px;
+    }
   #stage1{
     color: #046380;
     font-family: Times;
@@ -126,6 +136,11 @@ body{
       font-family: Times;
       font-size: 24;
       margin-left: 25px;
+    }
+    #lien2{
+      font-family: Times;
+      font-size: 24;
+      margin-left: 35px;
     }
 #cursus{
   background-color: white;
@@ -149,6 +164,11 @@ body{
       font-size: 24;
       margin-left: 25px;
     }
+    #lien3{
+      font-family: Times;
+      font-size: 24;
+      margin-left: 35px;
+    }
   #bts{
     color: #046380;
     font-family: Times;
@@ -160,6 +180,11 @@ body{
       font-family: Times;
       font-size: 24;
       margin-left: 25px;
+    }
+    #lien4{
+      font-family: Times;
+      font-size: 24;
+      margin-left: 35px;
     }
   #bacs{
     color: #046380;
@@ -178,6 +203,11 @@ body{
       font-family: Times;
       font-size: 24;
       margin-left: 25px;
+    }
+    #lien5{
+      font-family: Times;
+      font-size: 24;
+      margin-left: 35px;
     }
 #autre{
   background-color: lightgrey;
