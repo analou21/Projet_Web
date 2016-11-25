@@ -2,8 +2,8 @@ body{
   background-color: white;
 }
 #entete{
-  color: white;
-  background-color: black;
+  color: #50468C;
+  background-color: lightgrey;
   font-family: Times;
   font-size: 30;
   margin: auto;
@@ -12,41 +12,109 @@ body{
   text-align: center;
 }
   #age{
-    color: white;
+    color: #50468C;
     font-family: Times;
     font-size: 16;
     font-style: italic;
     text-align: center;
   }
   #adresse{
-    color: white;
+    color: #50468C;
     font-family: Times;
     font-size: 16;
     font-style: italic;
     text-align: center;
   }
   #poste{
-    color: white;
+    color: #50468C;
     font-family: Times;
     font-size: 20;
     font-weight: bold;
     font-style: italic;
     text-align: center;
   }
-#exp{
+#skills{
   color: #50468C;
-  background-color: white;
   font-family: Times;
   font-size: 28;
   font-weight: bold;
   margin: auto;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: lightgrey;
 }
-#cursus{
+  #langue{
+    color: #046380;
+    font-family: Times;
+    font-size: 24;
+    margin-left: 15px;
+  }
+    #detail{
+      color: black;
+      font-family: Times;
+      font-size: 24;
+      margin-left: 25px;
+    }
+  #info{
+    color: #046380;
+    font-family: Times;
+    font-size: 24;
+    margin-left: 15px;
+  }
+    #detail1{
+      color: black;
+      font-family: Times;
+      font-size: 24;
+      margin-left: 25px;
+    }
+#exp{
+  background-color: lightgrey;
   color: #50468C;
-  background-color: black;
+  font-family: Times;
+  font-size: 28;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+  #saisonnier{
+    color: #046380;
+    font-family: Times;
+    font-size: 24;
+    margin-left: 15px;
+  }
+    #detail2{
+      color: black;
+      font-family: Times;
+      font-size: 24;
+      margin-left: 25px;
+    }
+  #stage{
+    color: #046380;
+    font-family: Times;
+    font-size: 24;
+    margin-left: 15px;
+  }
+    #detail3{
+      color: black;
+      font-family: Times;
+      font-size: 24;
+      margin-left: 25px;
+    }
+  #stage1{
+    color: #046380;
+    font-family: Times;
+    font-size: 24;
+    margin-left: 15px;
+  }
+    #detail4{
+      color: black;
+      font-family: Times;
+      font-size: 24;
+      margin-left: 25px;
+    }
+#cursus{
+  background-color: white;
+  color: #50468C;
   font-family: Times;
   font-size: 28;
   font-weight: bold;
@@ -58,28 +126,60 @@ body{
     color: #046380;
     font-family: Times;
     font-size: 24;
+    margin-left: 15px;
   }
+    #adresse1{
+      color: black;
+      font-family: Times;
+      font-size: 24;
+      margin-left: 25px;
+    }
   #bts{
     color: #046380;
     font-family: Times;
     font-size: 24;
+    margin-left: 15px;
   }
+    #adresse2{
+      color: black;
+      font-family: Times;
+      font-size: 24;
+      margin-left: 25px;
+    }
   #bacs{
     color: #046380;
     font-family: Times;
     font-size: 24;
+    margin-left: 15px;
   }
+    #specialite{
+      color: black;
+      font-family: Times;
+      font-size: 24;
+      margin-left: 25px;
+    }
+    #adresse3{
+      color: black;
+      font-family: Times;
+      font-size: 24;
+      margin-left: 25px;
+    }
 #autre{
+  background-color: lightgrey;
   color: #50468C;
-  background-color: white;
   font-family: Times;
   font-size: 28;
   font-weight: bold;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 #contact{
   color: #50468C;
-  background-color: black;
   font-family: Times;
   font-size: 28;
   font-weight: bold;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
