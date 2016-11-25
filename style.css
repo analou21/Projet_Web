@@ -1,0 +1,85 @@
+body{
+  background-color: white;
+}
+#entete{
+  color: white;
+  background-color: black;
+  font-family: Times;
+  font-size: 30;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+  #age{
+    color: white;
+    font-family: Times;
+    font-size: 16;
+    font-style: italic;
+    text-align: center;
+  }
+  #adresse{
+    color: white;
+    font-family: Times;
+    font-size: 16;
+    font-style: italic;
+    text-align: center;
+  }
+  #poste{
+    color: white;
+    font-family: Times;
+    font-size: 20;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+  }
+#exp{
+  color: #50468C;
+  background-color: white;
+  font-family: Times;
+  font-size: 28;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: lightgrey;
+}
+#cursus{
+  color: #50468C;
+  background-color: black;
+  font-family: Times;
+  font-size: 28;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+  #licence{
+    color: #046380;
+    font-family: Times;
+    font-size: 24;
+  }
+  #bts{
+    color: #046380;
+    font-family: Times;
+    font-size: 24;
+  }
+  #bacs{
+    color: #046380;
+    font-family: Times;
+    font-size: 24;
+  }
+#autre{
+  color: #50468C;
+  background-color: white;
+  font-family: Times;
+  font-size: 28;
+  font-weight: bold;
+}
+#contact{
+  color: #50468C;
+  background-color: black;
+  font-family: Times;
+  font-size: 28;
+  font-weight: bold;
+}
