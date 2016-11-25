@@ -48,7 +48,17 @@ body{
     text-align: right;
     width:60px;
   }
+#nav{
+  color: #C44C51;
+  font-family: Times;
+  font-size: 28;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 #skills{
+  background-color: #EFECCA;
   color: #C44C51;
   font-family: Times;
   font-size: 28;
@@ -82,7 +92,6 @@ body{
       margin-left: 25px;
     }
 #exp{
-  background-color: #EFECCA;
   color: #C44C51;
   font-family: Times;
   font-size: 28;
@@ -143,6 +152,7 @@ body{
         margin-left: 35px;
       }
 #cursus{
+  background-color: #EFECCA;
   color: #C44C51;
   font-family: Times;
   font-size: 28;
@@ -209,7 +219,6 @@ body{
         margin-left: 35px;
       }
 #autre{
-  background-color: #EFECCA;
   color: #C44C51;
   font-family: Times;
   font-size: 28;
@@ -261,6 +270,7 @@ body{
       margin-left: 35px;
     }
 #contact{
+  background-color: #EFECCA;
   color: #C44C51;
   font-family: Times;
   font-size: 28;
