@@ -144,7 +144,7 @@ body{
       color: black;
       font-family: Times;
       font-size: 24;
-      margin-left: 25px;
+      margin-left: 15px;
     }
       #lien2{
         font-family: Times;
@@ -288,3 +288,15 @@ body{
   #send{
     margin-left: 20px;
   }
+  /*#notif{
+    visibility: hidden;
+    background-color: orange;
+    color: yellow;
+    font-weight: bold;
+    position: absolute;
+    left : 50px;
+    top: -30px;
+    padding: 5px;
+    transition: top .5s;
+    border-radius: 0px 0px 15px 15px;
+  }*/

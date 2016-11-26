@@ -6,8 +6,6 @@
     <link rel="stylesheet" href="..\Projet\style.css">
   </head>
   <body>
-    <script>
-    </script>
     <section id="entete">
       <div id="image"><img src="..\Projet\info.jpg"/></div>
       <div id="nom">Anaïs LOUETTE</div>
@@ -22,7 +20,7 @@
         <a href="#skills">Comp&eacute;tences</a>
         <a href="#exp">Exp&eacute;riences Professionnelles</a>
         <a href="#cursus">Formations</a>
-        <a href="#autre">Inofrmations Compl&eacute;mentaires</a>
+        <a href="#autre">Informations Compl&eacute;mentaires</a>
         <a href="#contact">Formulaire de contact</a>
       </div>
     </section>
@@ -46,7 +44,7 @@
       <div id="saisonnier">Saisonni&egrave;re &agrave; la mairie de Saint Pol sur Mer</div>
         <div id="detail2">
           Tri des dossiers pour la demande d'un logement<br>
-          Saisi des donn&eacute;es sur l'ordinateur
+          Saisie des donn&eacute;es sur l'ordinateur
         </div>
         <div id="lien"><a href="http://ville-saintpolsurmer.fr/">Portail de la mairie de Saint Pol sur Mer</a></div>
       <div id="stage">Stagiaire informatique chez Ateim</div>
@@ -58,8 +56,8 @@
         <div id="lien1"><a href="http://www.ateim.fr/fr/">Site Internet d'Ateim Technologies</a></div>
       <div id="stage1">Stagiaire en restauration chez Daniel Imbert SOGERES
         <div id="detail4">
-          Mise en place des repas le matin
-          Service le midi
+          Mise en place des repas le matin<br>
+          Service le midi<br>
           Remise en &eacute;tat de la salle l'apr&egrave;s-midi
         </div>
         <div id="lien2"><a href="http://ville-saintpolsurmer.fr/?rub=page19&l=l2&m=m6">Page du restauration sur le site de la mairie de Saint Pol sur Mer</a></div>
@@ -101,6 +99,7 @@
     </section><br>
 
     <section id="contact">Formulaire de Contact
+      <div id="notif"></div>
       <form id="formulaire">
         <p>Pour me contacter, veuillez remplir le formulaire suivant :</p>
         <table>
@@ -150,6 +149,16 @@
           alerte.style.top = '-30px';
         }, 2000);
       }
+      function source(id)
+      {
+        var l = document.getElementById(id).parentNode.parentNode.childNodes[1].childNodes[0];
+        l.style.color="red";
+        l.parentNode.style.backgroundColor="yellow";
+        var t = setTimeout(function(){
+          l.style.color="black";
+          l.parentNode.style.backgroundColor = 'white';
+        }, 2000);
+      }
       function envoyer()
       {
         var nom = document.getElementById('name').value;
@@ -160,31 +169,36 @@
 
         if(nom == '')
         {
-          alert('Veuillez renseigner un nom');
+          notif('Veuillez renseigner un nom');
+          source('name');
           return false;
         }else if(prenom == '')
         {
-          alert('Veuillez renseigner votre prénom');
+          notif('Veuillez renseigner votre prénom');
+          source('formane');
           return false;
         }else if(email == '')
         {
-          alert('Veuillez renseigner une adresse e-mail');
+          notif('Veuillez renseigner une adresse e-mail');
+          source('email');
           return false;
         }else if(sujet == '')
         {
-          alert('Veuillez renseigner un nom de sujet'); //ou console.log("Message")
+          notif('Veuillez renseigner un nom de sujet'); //ou console.log("Message")
+          source('subject');
           return false;
         }else if(message == '')
         {
-          alert('Veuillez renseigner un message');
+          notif('Veuillez renseigner un message');
+          source('message');
           return false;
         }else
         {
-          document.getElementById('name').innerHTML;
-          document.getElementById('forname').innerHTML;
-          document.getElementById('email').innerHTML;
-          document.getElementById('subject').innerHTML;
-          document.getElementById('message').innerHTML;
+          document.getElementById('name').innerHTML = "";
+          document.getElementById('forname').innerHTML = "";
+          document.getElementById('email').innerHTML = "";
+          document.getElementById('subject').innerHTML = "";
+          document.getElementById('message').innerHTML = "";
           notif('Votre message a bien été envoyé, merci', true);
           return true;
         }
