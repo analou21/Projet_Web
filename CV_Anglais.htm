@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Curriculum Vitae</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="..\Projet\style.css">
+  </head>
+  <body>
+    <section id="language">
+      <div id="menu">
+        <a href="..\Projet\CV_Anglais.htm">English</a>
+        <a href="..\Projet\CV.htm">French</a>
+    </section>
+    <section id="entete">
+      <div id="image"><img src="..\Projet\info.jpg"/></div>
+      <div id="nom">Anaïs LOUETTE</div>
+        <div id="age">21 years old</div>
+        <div id="adresse">Saint Pol sur Mer, Nord</div>
+        <div id="poste">Web and mobile developer</div>
+      <div id="image1"><img src="..\Projet\info1.jpg"/></div>
+    </section>
+
+    <section id="nav">
+      <div id="menu1">
+        <a href="#skills">Skills</a>
+        <a href="#exp">Professionnals Experiences</a>
+        <a href="#cursus">School's training</a>
+        <a href="#autre">Complemantaries Informations</a>
+        <a href="#contact">Contact Form</a>
+      </div>
+    </section>
+
+    <section id="skills">Skills
+      <div id="langue">Languages :</div>
+        <div id="detail">
+          English -> Fluent (Level B1)<br>
+          French -> Native language<br>
+          Germany -> Basic (Level A2)<br>
+        </div>
+      <div id="info">Computer Science Languages/BDD/Software :</div>
+        <div id="detail1">
+          BootStrap, C/C++, CSS, HTML, Java, JavaScript, PHP<br>
+          MySQL, PostGres<br>
+          Atom, Cisco Packet Tracer, Eclipse, GIT, NetBeans, NotePad++, Wireshark<br>
+        </div>
+    </section>
+
+    <section id="exp">Professionnals Experiences
+      <div id="saisonnier">Seasonal job at the town hall of Saint Pol sur Mer</div>
+        <div id="detail2">
+          Classify the folders for housing's ask<br>
+          Entering data on the computer
+        </div>
+        <div id="lien"><a href="http://ville-saintpolsurmer.fr/">Portal of the town hall of Saint Pol sur Mer</a></div>
+      <div id="stage">Computer Science trainee at Ateim</div>
+        <div id="detail3">
+          Solve the problem with Qualigram for employees working outside the company<br>
+          Qualigram Hierarchy<br>
+          Find a solution to eliminate the need for Qualigram
+        </div>
+        <div id="lien1"><a href="http://www.ateim.fr/fr/">Ateim Technologies Website</a></div>
+      <div id="stage1">Trainee in catering at Daniel Imbert SOGERES
+        <div id="detail4">
+          Setting meals in the morning<br>
+          Lunch service<br>
+          Rehabilitation of the room in the afternoon
+        </div>
+        <div id="lien2"><a href="http://ville-saintpolsurmer.fr/?rub=page19&l=l2&m=m6">Page of the restaurant on the site of the town hall of Saint Pol sur Mer</a></div>
+    </section><br>
+
+    <section id="cursus">School's training
+      <div id="licence">Professional Degree Web and Mobile Development in progress</div>
+        <div id="adresse1">IUT du Littoral C&ocirc;te d'Opale, Calais</div>
+        <div id="lien3"><a href="http://www.iut.univ-littoral.fr/">Site Internet de l'IUT</a></div>
+      <div id="bts">BTS Computer Science and Network for Industry and Services (Equivalent of HND)</div>
+        <div id="adresse2">Lyc&eacute;e de l'Europe, Dunkerque</div>
+        <div id="lien4"><a href="http://www.lycee-europe-dunkerque.fr/?L%27Enseignement_Sup%C3%A9rieur___BTS_Syst%C3%A8mes_Num%C3%A9riques">Website of the Lycée de l'Europe, detail of BTS</a></div>
+      <div id="bacs">Scientific secondary school diploma</div>
+        <div id="specialite">Specialty Computer Science and Digital Science</div>
+        <div id="adresse3">Lyc&eacute;e de l'Europe, Dunkerque</div>
+        <div id="lien5"><a href="http://www.lycee-europe-dunkerque.fr/?Les_Baccalaur%C3%A9ats___BAC_S-SVT_ou_S-SI_-_s%C3%A9rie_Scientifique">Website of the Lycée de l'Europe, detail of the Bac S</a></div>
+    </section>
+
+    <section id="autre">Complemantaries Informations
+      <div id="categorie">Entertainment</div>
+        <div id="tv">Television</div>
+          <div id="detail6">
+            American series<br>
+            American, Asian, European Musics<br>
+            Animes<br>
+            Drama Korean and Japanese<br>
+            Movies
+          </div>
+        <div id="sport">Sports</div>
+          <div id="detail7">
+            Basket-Ball<br>
+            Cycling
+          </div>
+      <div id="news">News</div>
+          <div id="detail5">
+            Generals news<br>
+            Computer Science -> Web and mobile
+          </div>
+    </section><br>
+
+    <section id="contact">Contact Form
+      <div id="notif"></div>
+      <form id="formulaire">
+        <p>To contact me, please fill the following form :</p>
+        <table>
+          <tr>
+            <td>Your name :<br><input type="text" id="name"></td>
+          </tr>
+          <tr>
+            <td>Your forname :<br><input type="text" id="forname"></td>
+          </tr>
+          <tr>
+            <td>Your email :<br><input type="text" id="email"></td>
+          </tr>
+          <tr>
+            <td>Your subject :<br><input type="text" id="subject"></td>
+          </tr>
+          <tr>
+            <td>Your message :<br><textarea type="text" id="message" cols=130 rows=5></textarea></td>
+          </tr>
+        </table><br>
+      </form>
+      <p id="send"><button id="valider" onclick="envoyer()">Submit</button></p>
+    </section>
+    <script>
+      function notif(text, ok)
+      {
+        var bkColor;
+        var fontColor;
+        if (!!ok)
+        {
+          bkColor = 'green';
+          fontColor = 'white';
+        } else
+        {
+          bkColor = 'red';
+          fontColor = 'yellow';
+        }
+
+        var alerte = document.getElementById('notif');
+        alerte.innerHTML = text;
+        alerte.style.backgroundColor = bkColor;
+        alerte.style.color = fontColor;
+        alerte.style.top = '0px';
+        alerte.style.visibility='visible';
+
+        setTimeout(function()
+        {
+          alerte.style.top = '-30px';
+        }, 2000);
+      }
+      function source(id)
+      {
+        var l = document.getElementById(id).parentNode.parentNode.childNodes[1].childNodes[0];
+        l.style.color="red";
+        l.parentNode.style.backgroundColor="yellow";
+        var t = setTimeout(function(){
+          l.style.color="black";
+          l.parentNode.style.backgroundColor = 'white';
+        }, 2000);
+      }
+      function envoyer()
+      {
+        var nom = document.getElementById('name').value;
+        var prenom = document.getElementById('forname').value;
+        var email = document.getElementById('email').value;
+        var sujet = document.getElementById('subject').value;
+        var message = document.getElementById('message').value;
+
+        if(nom == '')
+        {
+          notif('Please fill your name');
+          source('name');
+          return false;
+        }else if(prenom == '')
+        {
+          notif('Please fill your forname');
+          source('formane');
+          return false;
+        }else if(email == '')
+        {
+          notif('Please fill your email address');
+          source('email');
+          return false;
+        }else if(sujet == '')
+        {
+          notif('Please fill a subject'); //ou console.log("Message")
+          source('subject');
+          return false;
+        }else if(message == '')
+        {
+          notif('Please fill a message');
+          source('message');
+          return false;
+        }else
+        {
+          document.getElementById('name').innerHTML = "";
+          document.getElementById('forname').innerHTML = "";
+          document.getElementById('email').innerHTML = "";
+          document.getElementById('subject').innerHTML = "";
+          document.getElementById('message').innerHTML = "";
+          notif('Your message has been send, thanks', true);
+          return true;
+        }
+      }
+    </script>
+  </body>
+</html>
