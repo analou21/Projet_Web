@@ -1,8 +1,32 @@
 body{
   background-color: white;
 }
+#page{
+  background-color: white;
+  box-shadow: black 0 0 5px;
+  margin-left: 10em;
+  margin-right: 10em;
+  top: -2em;
+}
+header{
+  background-color: #f2f2f2;
+  border-color: black;
+  box-shadow: black 0 0 5px;
+  color: #C44C51;
+  font-family: Times;
+  font-size: 15px;
+  font-weight: bold;
+  height: 2em;
+  margin-bottom: 0em;
+  margin-left: 2em;
+  right: 0em;
+  position: fixed;
+  text-align: center;
+  top: 0em;
+  width: 100%;
+}
+
 #entete{
-  background-color: #EFECCA;
   margin: auto;
   padding-top: 20px;
   padding-bottom: 120px;
@@ -42,21 +66,6 @@ body{
       margin-bottom: 5px;
       text-align: center;
     }
-  #image1{
-    height:60px;
-    margin-left: 1075px;
-    text-align: right;
-    width:60px;
-  }
-#nav{
-  color: #C44C51;
-  font-family: Times;
-  font-size: 28;
-  font-weight: bold;
-  margin: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
 #skills{
   background-color: #EFECCA;
   color: #C44C51;
